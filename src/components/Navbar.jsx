@@ -2,8 +2,8 @@ import React from 'react'
 import newlogo from '../assets/newlogo.png' // Assuming you have a logo.png in the assets folder
 const Navbar = () => {
   return (
-    <div>
-      <ul className='w-[inherit] flex justify-around items-center bg-gray-400 text-white p-1 gap-4 rounded-3xl'>
+    <div className='w-[100%] mt-1 h-[65px] flex justify-between items-center p-2 shadow-lg'>
+      <ul className='flex justify-between items-center w-full text-gray-700 font-semibold'>
         <li className='flex items-center  text-3xl'>
             <img src={newlogo} alt="logo" width={100} height={100} className='text-green' />CookAI        
         </li>

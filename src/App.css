@@ -1,9 +1,18 @@
 @import "tailwindcss";
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cookie+One&display=swap');
+
+
+
 
 body{
   padding: 0;
   margin: 0;
+  
 }
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
